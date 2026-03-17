@@ -1,6 +1,6 @@
 # Taller Adaptador de Interfaz
 
-## 📌 Descripción
+##  Descripción
 
 Este proyecto corresponde al taller de **Interoperabilidad usando el patrón Adaptador** en la materia Ingeniería de Software II.
 
@@ -10,7 +10,7 @@ Para solucionar este problema se implementa un **adaptador**, que permite desaco
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Implementar una estrategia de interoperabilidad que permita:
 
@@ -20,7 +20,7 @@ Implementar una estrategia de interoperabilidad que permita:
 
 ---
 
-## ⚙️ Estructura del proyecto
+##  Estructura del proyecto
 
 El proyecto está dividido en varias partes:
 
@@ -32,7 +32,7 @@ El proyecto está dividido en varias partes:
 
 ---
 
-## 🔴 Implementación inicial (acoplada)
+##  Implementación inicial (acoplada)
 
 En la primera parte, el sistema se conecta directamente con el proveedor externo.
 
@@ -44,7 +44,7 @@ Problemas:
 
 ---
 
-## 🟡 Uso del Adaptador
+##  Uso del Adaptador
 
 Se define una interfaz interna:
 
@@ -62,7 +62,7 @@ Esto permite que el sistema principal no dependa del proveedor directamente.
 
 ---
 
-## 🟢 Pruebas
+##  Pruebas
 
 Se implementa una prueba automatizada que verifica que:
 
@@ -72,7 +72,7 @@ Se implementa una prueba automatizada que verifica que:
 
 ---
 
-## 🔵 Segundo proveedor
+##  Segundo proveedor
 
 Se agrega un segundo proveedor con una interfaz distinta.
 
@@ -85,7 +85,7 @@ Resultado:
 
 
 
-## 💡 Conclusiones
+##  Conclusiones
 
 * El patrón Adaptador reduce el acoplamiento
 * Mejora la mantenibilidad del sistema
@@ -94,7 +94,7 @@ Resultado:
 
 ---
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 1. Clonar el repositorio
 2. Ejecutar el sistema principal
@@ -109,9 +109,9 @@ python test_sistema.py
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
-Daniel Esteban Parra Flechas 
-Manuel Felipe Pineda Abril
+- Daniel Esteban Parra Flechas 
+- Manuel Felipe Pineda Abril
 Estudiante de Ingeniería de Sistemas
 Universidad Pedagógica y tecnológica de Colombia 
